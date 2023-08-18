@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CIS41B-FinalProject
 ## Overview
 This data analysis project is a deeply integrated assembly of numerous data analysis techniques. The objective of this work is to intricately analyze, visualize, and predict the performance of Fortune 500 companies across the US using a blend of technologies including SQLite for database management, pandas for data manipulation, sklearn for machine learning applications, and matplotlib for data visualization.
@@ -15,3 +16,7 @@ So,if you want to run program right away, it is better to keep values.js and lab
 Otherwise, you can delete values.js and lab.db to see web scraping and reading data from excel files process happen.
 ```
 
+=======
+# Fortune500_Project_Analysis
+This data analysis project is a deeply integrated assembly of numerous data analysis techniques. The objective of this work is to intricately analyze, visualize, and predict the performance of Fortune 500 companies across the US using a blend of technologies including SQLite for database management, pandas for data manipulation, sklearn for machine learning applications, and matplotlib for data visualization.
+>>>>>>> 473e4afaedb6a76c28eb763d1d9a7a2e3f8eef9e
