@@ -15,7 +15,7 @@ import json
 
 class MainWin(tk.Tk):
     '''
-
+        Main window
     '''
     DB = 'lab.db'
     def __init__(self):
@@ -154,6 +154,7 @@ class MainWin(tk.Tk):
         #         \n Revenue {record[4]} \nProfit {record[5]}')
 
     def close_window(self):
+        self._conn.close()
         self.destroy()
         self.quit()
 
