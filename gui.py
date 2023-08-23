@@ -165,8 +165,8 @@ class DialogWin(tk.Toplevel):
     '''
     def __init__(self, master):
         super().__init__(master)
-        self.grab_set()
-        self.focus_set()
+        # self.grab_set()
+        # self.focus_set()
         self.transient(master)
         self.protocol("WM_DELETE_WINDOW", self.closeWin)
         self._companyList = [] # for compare plots
